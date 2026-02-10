@@ -25,3 +25,25 @@ This file lists the structure of the template repository:
 - locations/ (empty)
 - items/ (empty)
 - docs/ (optional)
+
+How to create the public, cloneable repository (two options)
+
+1) Create locally and push to GitHub (manual flow)
+
+- Create a new repo on GitHub (name it e.g. `D-D-Campaign-Notes-Template`) and make it Public.
+- Locally:
+
+```bash
+# clone your empty repo (or create locally and add remote)
+git clone git@github.com:<your-username>/<repo-name>.git
+cd <repo-name>
+
+# copy the template files into the folder (or save these files)
+git add .
+git commit -m "Initial template commit: campaign notes structure"
+git push -u origin main
+```
+
+2) Use GitHub CLI (creates repo on GitHub and pushes the current directory)
+
+From a directory containing the files above:
