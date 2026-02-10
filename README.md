@@ -7,11 +7,21 @@ How to use
 - Copy this repository to start a new campaign.
 - Fill in templates in the `templates/` directory and keep organized content in `sessions/`, `characters/`, `npcs/`, `locations/`, and `items/`.
 
-Structure
-- templates/ — blank templates to create new notes
-- sessions/ — session notes
-- characters/ — player character files
-- npcs/ — npc files
-- locations/ — location files
-- items/ — important items and loot
-- docs/ — optional campaign documentation
+This file lists the structure of the template repository:
+
+- README.md
+- .gitignore
+- LICENSE
+- CONTRIBUTING.md
+- templates/
+  - session-template.md
+  - character-template.md
+  - npc-template.md
+  - location-template.md
+  - item-template.md
+- sessions/ (empty, for notes)
+- characters/ (empty, for filled character files)
+- npcs/ (empty)
+- locations/ (empty)
+- items/ (empty)
+- docs/ (optional)
