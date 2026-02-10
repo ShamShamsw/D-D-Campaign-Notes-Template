@@ -1,0 +1,13 @@
+# general
+.DS_Store
+Thumbs.db
+
+# editor configs
+.vscode/
+.idea/
+
+# OS files
+*.swp
+
+# optionally data exports
+*.db
